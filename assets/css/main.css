@@ -12,5 +12,5 @@ body{
     left: 50%;
     transform: translateX(-50%);
     filter: blur(4px);
-    box-shadow: 0 0 0 0 #000;
+    box-shadow: 0 1px 0 2px #000;
 }
