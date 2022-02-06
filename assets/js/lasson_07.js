@@ -8,15 +8,15 @@ do {
     console.log("while");
 } */
 
-let arr = [1, 4, 2, 7, 6, 54, 56, 4, 3, 4];
+//let arr = [1, 4, 2, 7, 6, 54, 56, 4, 3, 4];
 
 /* for (let i = 0; i < arr.length; i++) {
     console.log(arr[i]);
 } */
 
-for (let item of arr) {
+/* for (let item of arr) {
     console.log(item);
-}
+} */
 
 let obj1 = {
     one: "1",
@@ -24,4 +24,6 @@ let obj1 = {
     three: "3",
 };
 
-for{ let item }
+for (let key in obj1) {
+    console.log(`key: ${key} = vol: ${obj1[key]}`);
+}
