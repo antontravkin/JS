@@ -10,6 +10,18 @@ do {
 
 let arr = [1, 4, 2, 7, 6, 54, 56, 4, 3, 4];
 
-for (let i = 0; i < arr.length; i++) {
+/* for (let i = 0; i < arr.length; i++) {
     console.log(arr[i]);
+} */
+
+for (let item of arr) {
+    console.log(item);
 }
+
+let obj1 = {
+    one: "1",
+    two: "2",
+    three: "3",
+};
+
+for{ let item }
